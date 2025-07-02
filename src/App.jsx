@@ -1,15 +1,14 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
-import Layout from '@/components/organisms/Layout';
-import HomePage from '@/components/pages/HomePage';
-import PropertiesPage from '@/components/pages/PropertiesPage';
-import PropertyDetailPage from '@/components/pages/PropertyDetailPage';
-import OwnerDashboardPage from '@/components/pages/OwnerDashboardPage';
-import GuestDashboardPage from '@/components/pages/GuestDashboardPage';
-import BookingPage from '@/components/pages/BookingPage';
+import 'react-toastify/dist/ReactToastify.css'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import PropertyDetailPage from "@/components/pages/PropertyDetailPage";
+import GuestDashboardPage from "@/components/pages/GuestDashboardPage";
+import HomePage from "@/components/pages/HomePage";
+import OwnerDashboardPage from "@/components/pages/OwnerDashboardPage";
+import BookingPage from "@/components/pages/BookingPage";
+import PropertiesPage from "@/components/pages/PropertiesPage";
+import Layout from "@/components/organisms/Layout";
 
 function App() {
   return (

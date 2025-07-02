@@ -75,11 +75,9 @@
 .Toastify__toast-container {
   @apply text-sm;
 }
-
 .Toastify__toast {
-  @apply rounded-lg shadow-lg min-h-12 p-4;
+  @apply rounded-lg shadow-lg min-h-[3rem] p-4;
 }
-
 .Toastify__toast--success {
   @apply bg-white border-l-4 border-green-500 text-gray-800;
 }
